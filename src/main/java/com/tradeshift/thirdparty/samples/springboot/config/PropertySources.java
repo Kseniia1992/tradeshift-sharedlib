@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import javax.annotation.PostConstruct;
 
 // Configuration
-@Configuration(value = "propertySources")
+@Configuration(value="propertySources")
 public class PropertySources {
 
     private String tradeshiftAPIDomainName;
